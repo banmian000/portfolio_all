@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.ruru-page {
+  overflow: hidden;
+  background-image: url("../images/chara-back2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.ruru-return {
+  position: relative;
+  top: 2.5vh;
+  left: 92vw;
+  width: 5.2vw;
+  height: auto;
+  max-width: 100px;
+}
+.ruru-wrapper {
+  display: flex;
+}
+.ruru-img2 img {
+  padding-left: 10vw;
+  padding-right: 9.5vw;
+  padding-top: 3vh;
+  height: 83vh;
+  max-height: 902px;
+  width: auto;
+}
+.character-name3 {
+  padding-left: 5vw;
+  padding-bottom: 7.4vh;
+  height: 11.4vh;
+  width: auto;
+  max-height: 124px;
+  margin-right: 30vw;
+}
+.character-text3 {
+  height: 29vh;
+  max-height: 319px;
+  margin-bottom: 4vh;
+  animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(40vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+  }
+  40%,100% {
+    opacity: 1;
+  }
+}
+#chart3 {
+  background: rgba(255,255,255,1.00);
+  border: 0.5rem solid black;
+}
